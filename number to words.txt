@@ -1,0 +1,10 @@
+from num2words import num2words
+num = int(input("Enter your number: "))
+print(num2words(num))
+print(num2words(num,to='ordinal'))
+
+print(num2words(num, to = 'ordinal_num'))
+print(num2words(num, to = 'year'))
+print(num2words(num, to = 'currency'))
+
+#Tanver Bhuiyan
